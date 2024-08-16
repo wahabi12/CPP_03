@@ -6,7 +6,7 @@
 /*   By: blatifat <blatifat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 06:58:07 by blatifat          #+#    #+#             */
-/*   Updated: 2024/08/15 23:20:29 by blatifat         ###   ########.fr       */
+/*   Updated: 2024/08/16 01:45:44 by blatifat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ void ClapTrap::attack(const std::string& target) {
 }
 
 // Fonction pour subir des dégâts
-void ClapTrap::takeDemage(unsigned int amount) {
+void ClapTrap::takeDamage(unsigned int amount) {
     if (_hitPoints > 0) {
         _hitPoints -= amount;
         if (_hitPoints < 0) _hitPoints = 0;

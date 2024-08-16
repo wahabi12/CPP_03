@@ -6,26 +6,9 @@
 /*   By: blatifat <blatifat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 07:24:33 by blatifat          #+#    #+#             */
-/*   Updated: 2024/08/16 02:18:19 by blatifat         ###   ########.fr       */
+/*   Updated: 2024/08/16 06:30:48 by blatifat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "ScavTrap.hpp"
-
-/* int main()
-{
-    ScavTrap scav("Scavvy");
-    
-    scav.attack("Target A");
-    scav.takeDamage(20);
-    scav.beRepaired(10);
-    scav.guardGate();
-
-    return (0);
-    
-} */
-
-// main.cpp
 
 #include "ClapTrap.hpp"
 #include "ScavTrap.hpp"

@@ -6,15 +6,11 @@
 /*   By: blatifat <blatifat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 07:21:10 by blatifat          #+#    #+#             */
-/*   Updated: 2024/08/16 02:14:20 by blatifat         ###   ########.fr       */
+/*   Updated: 2024/08/16 06:22:26 by blatifat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScavTrap.hpp"
-#include <iostream>
-
-// ClapTrap.cpp
-
 #include "ClapTrap.hpp"
 #include <iostream>
 

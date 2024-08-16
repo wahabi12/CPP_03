@@ -6,7 +6,7 @@
 /*   By: blatifat <blatifat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 06:57:45 by blatifat          #+#    #+#             */
-/*   Updated: 2024/08/15 23:02:29 by blatifat         ###   ########.fr       */
+/*   Updated: 2024/08/16 01:40:18 by blatifat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ public:
     ~ClapTrap();
 
     void attack(const std::string& target);
-    void takeDemage(unsigned int amount);
+    void takeDamage(unsigned int amount);
     void beRepaired(unsigned int amount);
 };
 
